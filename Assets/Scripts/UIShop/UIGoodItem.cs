@@ -43,6 +43,7 @@ public class UIGoodItem : MonoBehaviour
         }
     }
 
+
     void CheckIsSelled(bool isSelled)
     {
         if (isSelled)
@@ -58,8 +59,11 @@ public class UIGoodItem : MonoBehaviour
     public void OnBtnBuyClick()
     {
         Debug.Log("buy");
+        TestServer.Instance.BuyGoodRequest(goodData.id);
        
     }
+
+
 }
 
 

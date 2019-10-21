@@ -64,8 +64,9 @@ public class BtnShop : MonoBehaviour
 
     public void OnBtnClick()
     {
-        Test();
-        UIShop.Instance.Show(datas);
+        //Test();
+        //UIShop.Instance.Show(datas);
+        UIShop.Instance.Show(TestServer.Instance.GetBuyDatas());
     }
 
 

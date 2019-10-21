@@ -21,7 +21,7 @@ public class UIShopOperationManager : MonoBehaviour
 
 
     public void OnBtnFreshClick(){
-
+        TestServer.Instance.RefreshRequest();
     }
 
 
